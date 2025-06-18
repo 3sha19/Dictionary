@@ -1,0 +1,192 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  background: #f4f4f4;
+  padding: 20px;
+  background: linear-gradient(135deg, #a7f3d0, #60a5fa);
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  background: linear-gradient(to bottom, #34d399, #10b981); /* Green gradient */
+  color: white;
+  border-radius: 50px; /* Circular shape */
+  box-shadow: 0 4px #059669;
+  transition: all 0.2s ease;
+}
+
+.result-box {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  text-align: left;
+  transition: all 0.3s ease;
+}
+
+input[type="text"]::placeholder {
+  color: #d1fae5; 
+}
+
+input[type="text"]:focus {
+  box-shadow: 0 6px #047857;
+  transform: translateY(-1px);
+}
+
+button {
+  padding: 12px 24px;
+  background: linear-gradient(to bottom, #3b82f6, #2563eb); /* Blue gradient */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 5px #1e40af;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px #1e40af;
+}
+
+.result-box {
+  margin-top: 20px;
+  text-align: left;
+}
+/* Toggle Button Styling */
+.theme-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 10px 16px;
+  background: #111827;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  font-size: 14px;
+}
+
+/* Dark mode theme */
+body.dark-mode {
+  background-color: #1e293b;
+  color: #f1f5f9;
+}
+
+body.dark-mode input[type="text"] {
+  background: linear-gradient(to bottom, #4ade80, #22c55e);
+  box-shadow: 0 4px #15803d;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background: linear-gradient(to bottom, #60a5fa, #2563eb);
+  box-shadow: 0 5px #1d4ed8;
+}
+
+body.dark-mode .result-box {
+  background-color: #334155;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .theme-btn {
+  background: #f8fafc;
+  color: #0f172a;
+}
+/* Default (light mode) styles */
+#wordTitle {
+  color: #1e3a8a; /* deep blue */
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#phonetics {
+  color: #16a34a; /* green */
+  font-style: italic;
+}
+
+#partOfSpeech {
+  color: #2563eb; /* blue */
+  font-weight: bold;
+}
+
+#definition {
+  color: #111827;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+#example {
+  color: #6b7280; /* gray */
+  font-style: italic;
+  margin-top: 8px;
+}
+
+/* Dark mode overrides */
+body.dark-mode #wordTitle {
+  color: #93c5fd;
+}
+
+body.dark-mode #phonetics {
+  color: #4ade80;
+}
+
+body.dark-mode #partOfSpeech {
+  color: #60a5fa;
+}
+
+body.dark-mode #definition {
+  color: #f1f5f9;
+}
+
+body.dark-mode #example {
+  color: #9ca3af;
+}
+#synonyms {
+  margin-top: 10px;
+  color: #4f46e5;
+  font-weight: 500;
+}
+
+#example {
+  color: #6b7280;
+  font-style: italic;
+  margin-top: 8px;
+}
+
+#playAudio {
+  margin-top: 10px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 14px;
+  cursor: pointer;
+  box-shadow: 0 4px #1d4ed8;
+}
+/* Light mode heading (optional, if you want to customize) */
+h1 {
+  color: #1e3a8a; /* Deep blue */
+}
+
+/* Dark mode heading */
+body.dark-mode h1 {
+  color: #690d7c; /* Light blue for contrast */
+}
+
