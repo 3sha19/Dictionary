@@ -10,9 +10,6 @@ A simple and clean dictionary web app that fetches word meanings, pronunciation,
 - 🌙 Toggle between light and dark modes
 - 🎨 Stylish and responsive UI
 
-## 💻 Live Demo
-
-👉 [Click to view live](https://3sha19.github.io/Dictionary/)
 
 ## 🛠️ Tech Stack
 
